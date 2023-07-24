@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Section</title>
-    <link rel="stylesheet" href="../CSS FILES/style.css" />
+    <link rel="stylesheet" href="../CSS FILES/main page.css" />
     <script
       src="https://kit.fontawesome.com/7a4b62b0a4.js"
       crossorigin="anonymous"
@@ -21,10 +21,14 @@
   <body>
     <header>
       <nav>
-        <h1><a href="./index.html">Asad Blogs</a></h1>
-        <ul>
-          <li><a href="./main page.html">Home</a></li>
-          <li><a href="./index.html">Posts</a></li>
+        <h1>
+          <b><a class="logo" href="#">Asad Blogs</a></b>
+        </h1>
+        <ul class="aaaaa">
+          <li><a class="nav" href="./main page.html">Home</a></li>
+          <li><a class="nav" href="./index.html">Blog</a></li>
+          <li><a class="nav" href="#About">About</a></li>
+          <li><a class="nav" href="#">Contact us</a></li>
           <li>
             <i class="fa fa-instagram"></i>
           </li>
@@ -37,7 +41,6 @@
         </ul>
       </nav>
     </header>
-
     <!-- ====Blog Section============================ -->
     <section id="blog">
       <!-- Headings---------------------->
@@ -96,6 +99,39 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="About">
+      <div class="about">
+        <h3>About us</h3>
+        <p>
+          Welcome to my corner of the internet! I'm thrilled to share my
+          thoughts, experiences, and passions with you through this blog. Here,
+          you'll find an eclectic mix of topics, all centered around personal
+          growth, adventure, and finding joy in the little things life has to
+          offer. So, without further ado, allow me to introduce myself.
+        </p>
+      </div>
+    </section>
+
+    <section id="form">
+      <h2>Get in touch</h2>
+      <div class="Form">
+        <input id="name" name="name" placeholder="Name" />
+      </div>
+      <div class="Form">
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <div class="Form">
+          <textarea
+            class="textarea1"
+            id="Message"
+            name="Message"
+            row="25"
+            cols="25"
+            placeholder="Message"
+          ></textarea>
+        </div>
+      </div>
+      <button><a>send</a></button>
     </section>
   </body>
 </html>

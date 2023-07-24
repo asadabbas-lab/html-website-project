@@ -13,7 +13,7 @@ html,body{
 header{
     position: sticky;
     top: 0;
-    background: #ffffff;
+    background: #0f0f0f;
 
 }
 nav{
@@ -28,6 +28,7 @@ nav h1{
     padding-left: 5rem;
 }
 nav ul{
+    color: #ffffff;
     display: flex;
     gap: 20px;
 }
@@ -42,6 +43,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
+    background: black;
 }
 /* --blog-------------------------------------------------- */
 #blog{
@@ -72,16 +74,18 @@ body{
   align-items: center; 
   margin: 20px 0px;
   flex-wrap: wrap;
+  /* height: 53vh; */
 }
 .blog-box{
     width:350px;
     background-color: #ffffff;
     border: 1px solid #ececec;
-    margin: 20px;
+    margin: 20px;   
+    height: 40rem;
 }
 .blog-img{
     width: 100%;
-    height: auto;
+    height:  494px;
 }
 .blog-img img{
     width: 100%;
@@ -93,6 +97,8 @@ body{
     padding: 30px;
     display: flex;
     flex-direction: column;
+    height: 15rem;
+    background-color: black;
 }
 .blog-text span{
     color: #f33c3c;
@@ -124,4 +130,57 @@ color: #272727;
 .blog-text a:hover{
     color: #f33c3c;
     transition: all ease 0.3s;
+}
+.about h3{
+padding-left: 4rem;
+color: white;
+background: black;
+
+}
+.about p{
+    color: white;
+
+    margin-top: 10px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.aaaaa{
+     
+    align-items: center;
+    justify-content: center; 
+}
+.about{
+background: black;
+}
+.logo{
+    text-decoration: none;
+    color: #ffffff;
+}
+#blog{
+    background: black;
+}
+
+#form{
+text-align: center;
+color: white;
+border-radius: 1rem;
+}
+.Form input{
+background: rgb(189, 188, 188);
+border-radius: 1rem;
+}
+#form textarea{
+    background-color:rgb(189, 188, 188) ;
+    border-radius: 1rem;
+} 
+#section button{
+    border-radius: 1rem;
 }
