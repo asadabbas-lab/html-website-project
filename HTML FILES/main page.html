@@ -20,26 +20,53 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="parent">
         <h1>
-          <b><a class="logo" href="#">Asad Blogs</a></b>
+          <b
+            ><a class="logo" href="#"
+              ><div class="logo-AsadAbbas">Asad Blogs</div></a
+            ></b
+          >
         </h1>
-        <ul class="aaaaa">
-          <li><a class="nav" href="./main page.html">Home</a></li>
-          <li><a class="nav" href="./index.html">Blog</a></li>
-          <li><a class="nav" href="#About">About</a></li>
-          <li><a class="nav" href="#">Contact us</a></li>
-          <li>
-            <i class="fa fa-instagram"></i>
-          </li>
-          <li>
-            <i class="fa fa-twitter"></i>
-          </li>
-          <li>
-            <i class="fab fa-linkedin"></i>
-          </li>
-        </ul>
-      </nav>
+        <div class="navigation-buttons">
+          <ul class="aaaaa">
+            <li><a class="nav" href="./main page.html">Home</a></li>
+            <li><a class="nav" href="./index.html">Blog</a></li>
+            <li><a class="nav" href="#About">About</a></li>
+            <li><a class="nav" href="#">Contact us</a></li>
+            <li>
+              <i class="fa fa-instagram"></i>
+            </li>
+            <li>
+              <i class="fa fa-twitter"></i>
+            </li>
+            <li>
+              <i class="fab fa-linkedin"></i>
+            </li>
+<li><button class="Theme">
+              <a href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="15"
+                  
+                  class="bi bi-three-dots-vertical"
+                  viewBox="0 0 16 16"
+                  id="IconChangeColor"
+                >
+                  <path
+                    d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                    id="mainIconPathAttribute"
+                    fill="#ffffff"
+                    stroke-width="0"
+                    stroke="#ff0000"
+                  ></path>
+                </svg>
+              </a>
+            </button>
+        </li>
+          </ul>
+      </div>
     </header>
     <!-- ====Blog Section============================ -->
     <section id="blog">
@@ -114,24 +141,23 @@
     </section>
 
     <section id="form">
-      <h2>Get in touch</h2>
+      <h2>Give Feed back</h2>
       <div class="Form">
-        <input id="name" name="name" placeholder="Name" />
+        <input class="user-form" id="name" name="name" placeholder="Name" />
       </div>
       <div class="Form">
-        <input type="email" id="email" name="email" placeholder="Email" />
+        <input
+          class="user-form"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
         <div class="Form">
-          <textarea
-            class="textarea1"
-            id="Message"
-            name="Message"
-            row="25"
-            cols="25"
-            placeholder="Message"
-          ></textarea>
+          <textarea class="textarea1" placeholder="Message"></textarea>
         </div>
       </div>
-      <button><a>send</a></button>
+      <button class="send-button"><a href="#">Send</a></button>
     </section>
   </body>
 </html>
