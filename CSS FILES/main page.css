@@ -137,7 +137,7 @@ color: #272727;
     color: #f33c3c;
     transition: all ease 0.3s;
 }
-.about h3{
+.about h2{
 padding-left: 4rem;
 color: white;
 background: black;
@@ -246,4 +246,16 @@ padding-right: 4px;
 }   
 .bi-three-dots-vertical{
     color: white;
+}
+footer{
+    display: flex;
+    background-color: #3c3d41;
+    padding: 25px 25px 20px 20px;
+    justify-content: space-between;
+}
+.footer-details{
+    font-size: 16px;
+    padding-left: 10px;
+    color: white;
+    order: -1;
 }
